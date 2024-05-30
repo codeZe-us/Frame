@@ -1,19 +1,22 @@
 //
-//  FrameAppGridView.swift
+//  FrameAppTitleView.swift
 //  Frame
 //
-//  Created by Lewechi Godsfavour on 30/05/2024.
+//  Created by Lewechi Godsfavour on 31/05/2024.
 //
 
 import SwiftUI
 
-struct FrameAppGridView: View {
+struct FrameAppTitleView: View {
+    
+    let framework: Framework
+    
     var body: some View {
         VStack {
-            Image("app-clip")
+            Image(framework.imageName)
                 .resizable()
                 .frame(width: 90, height: 90)
-            Text("App-Clips")
+            Text(framework.name)
                 .font(.title2)
                 .fontWeight(.semibold)
                 .foregroundColor(Color(.label))
@@ -24,9 +27,8 @@ struct FrameAppGridView: View {
     }
 }
 
-struct FrameAppGridView_Previews: PreviewProvider {
+struct FrameAppTitleView_Previews: PreviewProvider {
     static var previews: some View {
-        FrameAppGridView()
-            .preferredColorScheme(.dark)
+        FrameAppTitleView(framework: MockData.sampleFramework)
     }
 }
