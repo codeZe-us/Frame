@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7194566A2C0935F600ACEEC1 /* FrameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719456692C0935F600ACEEC1 /* FrameApp.swift */; };
-		7194566C2C0935F600ACEEC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7194566B2C0935F600ACEEC1 /* ContentView.swift */; };
 		7194566E2C0935F800ACEEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7194566D2C0935F800ACEEC1 /* Assets.xcassets */; };
 		719456712C0935F800ACEEC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719456702C0935F800ACEEC1 /* Preview Assets.xcassets */; };
 		7194567B2C0935F800ACEEC1 /* FrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7194567A2C0935F800ACEEC1 /* FrameTests.swift */; };
 		719456852C0935F800ACEEC1 /* FrameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719456842C0935F800ACEEC1 /* FrameUITests.swift */; };
 		719456872C0935F800ACEEC1 /* FrameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719456862C0935F800ACEEC1 /* FrameUITestsLaunchTests.swift */; };
+		719456942C09396600ACEEC1 /* FrameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719456932C09396600ACEEC1 /* FrameModels.swift */; };
+		719456982C093B5E00ACEEC1 /* FrameAppGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719456972C093B5E00ACEEC1 /* FrameAppGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		719456662C0935F600ACEEC1 /* Frame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719456692C0935F600ACEEC1 /* FrameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameApp.swift; sourceTree = "<group>"; };
-		7194566B2C0935F600ACEEC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7194566D2C0935F800ACEEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		719456702C0935F800ACEEC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		719456762C0935F800ACEEC1 /* FrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +44,8 @@
 		719456802C0935F800ACEEC1 /* FrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		719456842C0935F800ACEEC1 /* FrameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameUITests.swift; sourceTree = "<group>"; };
 		719456862C0935F800ACEEC1 /* FrameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		719456932C09396600ACEEC1 /* FrameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModels.swift; sourceTree = "<group>"; };
+		719456972C093B5E00ACEEC1 /* FrameAppGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAppGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				719456692C0935F600ACEEC1 /* FrameApp.swift */,
-				7194566B2C0935F600ACEEC1 /* ContentView.swift */,
 				7194566D2C0935F800ACEEC1 /* Assets.xcassets */,
 				7194566F2C0935F800ACEEC1 /* Preview Content */,
+				719456932C09396600ACEEC1 /* FrameModels.swift */,
+				719456972C093B5E00ACEEC1 /* FrameAppGridView.swift */,
 			);
 			path = Frame;
 			sourceTree = "<group>";
@@ -257,7 +260,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7194566C2C0935F600ACEEC1 /* ContentView.swift in Sources */,
+				719456942C09396600ACEEC1 /* FrameModels.swift in Sources */,
+				719456982C093B5E00ACEEC1 /* FrameAppGridView.swift in Sources */,
 				7194566A2C0935F600ACEEC1 /* FrameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
