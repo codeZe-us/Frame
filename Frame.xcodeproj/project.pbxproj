@@ -15,6 +15,7 @@
 		719456872C0935F800ACEEC1 /* FrameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719456862C0935F800ACEEC1 /* FrameUITestsLaunchTests.swift */; };
 		719456942C09396600ACEEC1 /* FrameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719456932C09396600ACEEC1 /* FrameModels.swift */; };
 		719456982C093B5E00ACEEC1 /* FrameAppGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719456972C093B5E00ACEEC1 /* FrameAppGridView.swift */; };
+		7194569A2C09402400ACEEC1 /* FrameAppTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719456992C09402400ACEEC1 /* FrameAppTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		719456862C0935F800ACEEC1 /* FrameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		719456932C09396600ACEEC1 /* FrameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModels.swift; sourceTree = "<group>"; };
 		719456972C093B5E00ACEEC1 /* FrameAppGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAppGridView.swift; sourceTree = "<group>"; };
+		719456992C09402400ACEEC1 /* FrameAppTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAppTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				7194566F2C0935F800ACEEC1 /* Preview Content */,
 				719456932C09396600ACEEC1 /* FrameModels.swift */,
 				719456972C093B5E00ACEEC1 /* FrameAppGridView.swift */,
+				719456992C09402400ACEEC1 /* FrameAppTitleView.swift */,
 			);
 			path = Frame;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				719456942C09396600ACEEC1 /* FrameModels.swift in Sources */,
 				719456982C093B5E00ACEEC1 /* FrameAppGridView.swift in Sources */,
 				7194566A2C0935F600ACEEC1 /* FrameApp.swift in Sources */,
+				7194569A2C09402400ACEEC1 /* FrameAppTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
