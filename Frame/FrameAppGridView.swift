@@ -8,19 +8,32 @@
 import SwiftUI
 
 struct FrameAppGridView: View {
+    @StateObject var viewModel = FrameAppGridViewModel()
+    
     var body: some View {
-        VStack {
-            Image("app-clip")
-                .resizable()
-                .frame(width: 90, height: 90)
-            Text("App-Clips")
-                .font(.title2)
-                .fontWeight(.semibold)
-                .foregroundColor(Color(.label))
-                .scaledToFit()
-                .minimumScaleFactor(0.6)
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: viewModel.columns) {
+                    ForEach(MockData.frameworks) { framework in
+                        FrameAppTitleView(framework: framework)
+                            .onTapGesture {
+                                viewModel.selectedFramework = framework
+                            }
+                    }
+                }
+            }
+            .navigationTitle("🍎 Frameworks")
+            .sheet(isPresented: $viewModel.isShowingDetailView){
+                FrameworkDetailView(framework: viewModel.selectedFramework
+                                    ?? MockData.sampleFramework,
+                                    isShowingDetailView: $viewModel.isShowingDetailView
+                )
+            }
+//            .sheet(isPresented: $viewModel.isShowingDetailView){
+//                FrameworkDetailView(framework: viewModel.selectedFramework!,
+//                                    isShowingDetailView: $viewModel.isShowingDetailView)
+//            }
         }
-        .padding()
     }
 }
 
@@ -28,5 +41,6 @@ struct FrameAppGridView_Previews: PreviewProvider {
     static var previews: some View {
         FrameAppGridView()
             .preferredColorScheme(.dark)
+            
     }
 }
