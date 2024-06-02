@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71120C7D2C0AFFDB0015C9B2 /* FrameAppGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71120C7C2C0AFFDB0015C9B2 /* FrameAppGridModel.swift */; };
+		71120C7F2C0B007C0015C9B2 /* FrameAppDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71120C7E2C0B007C0015C9B2 /* FrameAppDetailsView.swift */; };
+		71120C812C0B00B50015C9B2 /* FrameAppSafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71120C802C0B00B50015C9B2 /* FrameAppSafariView.swift */; };
+		71120C832C0B01BE0015C9B2 /* FrameAppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71120C822C0B01BE0015C9B2 /* FrameAppButton.swift */; };
+		71120C852C0B01F50015C9B2 /* FrameAppDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71120C842C0B01F50015C9B2 /* FrameAppDismissButton.swift */; };
 		7194566A2C0935F600ACEEC1 /* FrameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719456692C0935F600ACEEC1 /* FrameApp.swift */; };
 		7194566E2C0935F800ACEEC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7194566D2C0935F800ACEEC1 /* Assets.xcassets */; };
 		719456712C0935F800ACEEC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 719456702C0935F800ACEEC1 /* Preview Assets.xcassets */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71120C7C2C0AFFDB0015C9B2 /* FrameAppGridModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAppGridModel.swift; sourceTree = "<group>"; };
+		71120C7E2C0B007C0015C9B2 /* FrameAppDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAppDetailsView.swift; sourceTree = "<group>"; };
+		71120C802C0B00B50015C9B2 /* FrameAppSafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAppSafariView.swift; sourceTree = "<group>"; };
+		71120C822C0B01BE0015C9B2 /* FrameAppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAppButton.swift; sourceTree = "<group>"; };
+		71120C842C0B01F50015C9B2 /* FrameAppDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAppDismissButton.swift; sourceTree = "<group>"; };
 		719456662C0935F600ACEEC1 /* Frame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		719456692C0935F600ACEEC1 /* FrameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameApp.swift; sourceTree = "<group>"; };
 		7194566D2C0935F800ACEEC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +114,11 @@
 				719456932C09396600ACEEC1 /* FrameModels.swift */,
 				719456972C093B5E00ACEEC1 /* FrameAppGridView.swift */,
 				719456992C09402400ACEEC1 /* FrameAppTitleView.swift */,
+				71120C7C2C0AFFDB0015C9B2 /* FrameAppGridModel.swift */,
+				71120C7E2C0B007C0015C9B2 /* FrameAppDetailsView.swift */,
+				71120C802C0B00B50015C9B2 /* FrameAppSafariView.swift */,
+				71120C822C0B01BE0015C9B2 /* FrameAppButton.swift */,
+				71120C842C0B01F50015C9B2 /* FrameAppDismissButton.swift */,
 			);
 			path = Frame;
 			sourceTree = "<group>";
@@ -264,9 +279,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				719456942C09396600ACEEC1 /* FrameModels.swift in Sources */,
+				71120C812C0B00B50015C9B2 /* FrameAppSafariView.swift in Sources */,
+				71120C7D2C0AFFDB0015C9B2 /* FrameAppGridModel.swift in Sources */,
 				719456982C093B5E00ACEEC1 /* FrameAppGridView.swift in Sources */,
 				7194566A2C0935F600ACEEC1 /* FrameApp.swift in Sources */,
 				7194569A2C09402400ACEEC1 /* FrameAppTitleView.swift in Sources */,
+				71120C7F2C0B007C0015C9B2 /* FrameAppDetailsView.swift in Sources */,
+				71120C852C0B01F50015C9B2 /* FrameAppDismissButton.swift in Sources */,
+				71120C832C0B01BE0015C9B2 /* FrameAppButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
