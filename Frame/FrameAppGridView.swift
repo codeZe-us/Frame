@@ -2,7 +2,7 @@
 //  FrameAppGridView.swift
 //  Frame
 //
-//  Created by Lewechi Godsfavour on 30/05/2024.
+//  Created by Lewechi Godsfavour on 30/05/2023.
 //
 
 import SwiftUI
@@ -40,7 +40,7 @@ struct FrameAppGridView: View {
 struct FrameAppGridView_Previews: PreviewProvider {
     static var previews: some View {
         FrameAppGridView()
-            .preferredColorScheme(.dark)
+            .preferredColorScheme(.light)
             
     }
 }
